@@ -1,0 +1,529 @@
+.container {
+  display: grid;
+}
+
+.header {
+  background-color: #2B2D31;
+  height: 100vh;
+}
+
+.menu-header h1 {
+  font-family: 'Commissioner';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18.35px;
+  letter-spacing: 5px;
+  color: #fff;
+  margin-bottom: 27px;
+}
+
+.menu-content {
+  font-family: 'Roboto';
+}
+
+.menu-content h2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 2px;
+  color: #7C8187;
+  margin-bottom: 29px;
+}
+
+.menu-content button {
+  color: #fff;
+  background-color: #E46643;
+  border-radius: 4px;
+  padding-block: 12px;
+  width: 100%;
+  border-style: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.58px;
+  cursor: pointer;
+}
+
+.file-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16.29px;
+  padding-left: 24px;
+}
+
+.file-content img {
+  width: 13.71px;
+  height: 16px;
+}
+
+.file-delete-save {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-right: 8px;
+}
+
+.save-btn {
+  background-color: #E46643;
+  border-radius: 4px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.save-text {
+  display: none;
+}
+
+.header-content {
+  display: flex;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: calc(100% - 56px);
+}
+
+.header-inner-left {
+  display: flex;
+}
+
+.header-inner p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.58px;
+  color: #fff;
+}
+
+.header-inner input {
+  background-color: #2B2D31;
+  border: none;
+  outline: none;
+  width: 180px;
+  height: 18px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.58px;
+  color: #fff;
+  caret-color: #E46643;
+}
+
+.markdown-text-desktop {
+  display: none;
+}
+
+.hamburger-menu {
+  background-color: #35393F;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+}
+
+.hamburger-menu img {
+  cursor: pointer;
+}
+
+.markdown-container {
+  height: 100%;
+}
+
+form {
+  height: 100%;
+}
+
+.hamburger-menu-overlay {
+  height: 100%;
+  display: grid;
+  padding: 28px 24px;
+  background-color: #1d1f22;
+  grid-template-rows: max-content max-content max-content 1fr max-content;
+  position: fixed;
+  top: 0;
+  width: 250px;
+  background-color: rgba(21, 22, 25, 1);
+  min-height: 100vh;
+  transition: transform 0.3s ease;
+  z-index: 10;
+}
+
+.markdown-preview-area img {
+  cursor: pointer;
+  width: 16px;
+  height: 11.2px;
+  align-self: center;
+}
+
+.markdown-preview-area {
+  background-color: #F5F5F5;
+  height: 42px;
+  font-family: 'Roboto';
+  align-content: center;
+  padding-inline: 16px;
+}
+
+.markdown-preview-area label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 2px;
+  color: #7C8187;
+}
+
+.small-screen-label span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container {
+  background-color: #fff;
+  height: 100%;
+}
+
+.mobile-textarea, .preview-container {
+  width: 100%;
+  border-style: none;
+  outline: none;
+  padding: 16px;
+  height: 100vh;
+}
+
+.mobile-textarea {
+  font-family: 'Roboto Mono';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #35393F;
+}
+
+.preview-container {
+  font-family: 'Roboto Slab';
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  padding: 16px;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: #35393f;
+    }
+
+    h6 {
+      color: #e46643;
+    }
+
+    p,
+    ul,
+    ol {
+      color: #7c8187;
+    }
+
+    ul li::marker {
+      color: #E46643;
+    }
+}
+
+pre {
+  padding: 24px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  color: #35393f;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.document-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 0;
+  margin-top: 24px;
+}
+
+.document-list li {
+  font-family: 'Roboto';
+  list-style: none;
+  display: flex;
+  gap: 16.29px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.document-list span {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 15.23px;
+  color: #7C8187;
+}
+
+.document-list p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.58px;
+  color: #fff;
+  margin-top: 3px;
+}
+
+.doc-name-tablet {
+  display: none;
+}
+
+.file-info {
+  font-family: "Roboto";
+}
+
+.delete-btn {
+  cursor: pointer;
+}
+
+dialog {
+  background-color: #fff;
+  border-radius: 4px;
+  border-style: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+  width: 343px;
+  padding: 24px;
+}
+
+.dialog::backdrop {
+  background-color: rgba(21, 22, 25, 1);
+}
+
+.dialog-delete {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dialog-delete h3 {
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26.38px;
+  color: #35393F;
+}
+
+.dialog-delete p {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #7C8187;
+}
+
+.confirm-delete-cancel-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.confirm-delete-btn, .cancel-btn{
+  border-style: none;
+  border-radius: 4px;
+  padding: 11px;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.58px;
+}
+
+.confirm-delete-btn {
+  background-color: #E46643;
+}
+
+.cancel-btn {
+  background-color: #7C8187;
+}
+
+.menu-open {
+  overflow: hidden;
+}
+
+.header-open {
+  transform: translateX(250px);
+}
+
+.grid {
+  display: grid;
+}
+
+.none {
+  display: none;
+}
+
+.theme-switch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.switch {
+  appearance: none;
+  background-color: #5a6069;
+  height: 22px;
+  width: 48px;
+  display: inline-flex;
+  margin-inline: 16px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 4px;
+  transition: all 0.8s ease-in-out;
+  cursor: pointer;
+}
+
+.switch:after {
+  content: "";
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transition: transform 0.4s ease-out, opacity 0.3s linear;
+}
+
+.switch:checked:after {
+  transform: translateX(180%);
+}
+
+
+/* Tablet Start */
+
+@media (min-width: 768px) {
+
+  .save-btn:hover {
+    background-color: #F39765;
+  }
+
+  .menu-content button:hover {
+    background-color: #F39765;
+  }
+
+  .hamburger-menu:hover {
+    background-color: #E46643;
+  }
+
+  .document-list p:hover {
+    color: #E46643;
+  }
+
+  .confirm-delete-btn:hover {
+    background-color: #F39765;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #C1C4CB;
+  }
+
+  .file-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .doc-name-tablet {
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15.23px;
+    color: #7C8187;
+  }
+  
+  .bigscreen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .markdown-preview-area label {
+    width: 100%;
+  }
+
+  .titles {
+    display: flex;
+    width: 100%;
+    span {
+      width: 50%;
+      height: 42px;
+      align-content: center;
+      padding-left: 16px;
+    }
+    span:nth-last-child(1){
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-left: 1px solid #E4E4E4;
+    }
+  }
+
+  .tablet-titles {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .preview-container {
+    border-left: 1px solid #E4E4E4;
+  }
+
+  .preview-container.border-none {
+    border: none;
+  }
+
+  .save-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.83px;
+  }
+  
+  .save-text {
+    display: block;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    color: #fff;
+    font-family: Roboto;
+  }
+}
+
+/* Desktop Start */
+
+@media (width >= 1280px) {
+
+  .markdown-text-desktop {
+    display: block;
+    align-content: center;
+    align-self: center;
+    font-family: "Commissioner";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.35px;
+    letter-spacing: 5px;
+    text-align: left;
+    padding-inline: 29px;
+    color: #fff;
+    border-right: 1px solid #5a6069;
+    height: 40px;
+  }
+
+}

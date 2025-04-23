@@ -1,0 +1,69 @@
+body.dark-mode .text-container {
+  background-color: #15161a;
+}
+
+body.dark-mode .mobile-textarea {
+  background-color: #15161a;
+  color: #C1C4CB;
+}
+
+body.dark-mode .markdown-preview-area {
+  background-color: #1D1F22;
+}
+
+body.dark-mode .preview-container {
+  border-left: 1px solid #5A6069;
+}
+
+body.dark-mode .titles {
+
+  span:nth-last-child(1) {
+    border-left: 1px solid #5A6069;
+  }
+}
+
+body.dark-mode .markdown-preview-area label {
+  color: #C1C4CB;
+}
+
+body.dark-mode .preview-container {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: #FFFFFF;
+    }
+
+    p,
+    ul,
+    ol {
+      color: #C1C4CB;
+    }
+
+    ul li::marker {
+      color: #E46643;
+    }
+}
+
+body.dark-mode pre {
+  background-color: #2B2D31;
+  color: #FFFFFF;
+}
+
+body.dark-mode dialog {
+background-color: #1D1F22;
+}
+
+body.dark-mode .dialog-delete h3 {
+  color: #FFFFFF;
+}
+
+body.dark-mode .dialog-delete p {
+  color: #C1C4CB;
+}
+
+body.dark-mode .dialog::backdrop {
+  background-color: rgba(124, 129, 135, 1);
+}
