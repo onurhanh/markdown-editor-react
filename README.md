@@ -13,6 +13,9 @@
 Built with React, this editor instantly converts your content into HTML and displays it in the preview area.
 
 
+![Ekran görüntüsü 2025-04-23 232128](https://github.com/user-attachments/assets/8c1725cb-4e9b-4180-8b25-ec9c9dca3a47)
+
+
 ## 🚀 Key Features
 
 ### 📝 Markdown Writing & Live Preview
@@ -21,6 +24,10 @@ Built with React, this editor instantly converts your content into HTML and disp
 
 ### 📁 Document Management
 - **Create New Document:** Users can create new markdown documents from the left panel.
+
+
+![Ekran görüntüsü 2025-04-23 232221](https://github.com/user-attachments/assets/31bcab34-d39c-4d56-bc1e-9167e1d4a78b)
+
 
 - **Delete Document:** Any existing document can be deleted.
 
